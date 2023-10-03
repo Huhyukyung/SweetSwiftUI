@@ -16,6 +16,7 @@
 		5238EAE7240BAEBF0079E99D /* ProductData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5238EAE6240BAEBC0079E99D /* ProductData.json */; };
 		AB47D1FE2A86689200370F49 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB47D1FD2A86689200370F49 /* ProductRow.swift */; };
 		AB68DF2F2ACC1F83003BADE1 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB68DF2E2ACC1F83003BADE1 /* ColorExtension.swift */; };
+		AB68DF312ACC2124003BADE1 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB68DF302ACC2124003BADE1 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		5238EAE6240BAEBC0079E99D /* ProductData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ProductData.json; sourceTree = "<group>"; };
 		AB47D1FD2A86689200370F49 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
 		AB68DF2E2ACC1F83003BADE1 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		AB68DF302ACC2124003BADE1 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Product.swift; path = FruitMart/Source/Helper/Extension/Product.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 		5238EAE4240BADA50079E99D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AB68DF302ACC2124003BADE1 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				5238EACE240BAC920079E99D /* SceneDelegate.swift in Sources */,
 				5238EAD0240BAC920079E99D /* Home.swift in Sources */,
 				AB68DF2F2ACC1F83003BADE1 /* ColorExtension.swift in Sources */,
+				AB68DF312ACC2124003BADE1 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
