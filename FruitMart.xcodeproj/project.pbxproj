@@ -15,6 +15,8 @@
 		5238EAD8240BAC930079E99D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5238EAD6240BAC930079E99D /* LaunchScreen.storyboard */; };
 		5238EAE7240BAEBF0079E99D /* ProductData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5238EAE6240BAEBC0079E99D /* ProductData.json */; };
 		AB47D1FE2A86689200370F49 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB47D1FD2A86689200370F49 /* ProductRow.swift */; };
+		AB4F74B92AE5567F000CCD49 /* BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4F74B82AE5567F000CCD49 /* BundleExtension.swift */; };
+		AB4F74BB2AE556F4000CCD49 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4F74BA2AE556F4000CCD49 /* Store.swift */; };
 		AB68DF2F2ACC1F83003BADE1 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB68DF2E2ACC1F83003BADE1 /* ColorExtension.swift */; };
 		AB68DF312ACC2124003BADE1 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB68DF302ACC2124003BADE1 /* Product.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +32,8 @@
 		5238EAD9240BAC930079E99D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5238EAE6240BAEBC0079E99D /* ProductData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ProductData.json; sourceTree = "<group>"; };
 		AB47D1FD2A86689200370F49 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		AB4F74B82AE5567F000CCD49 /* BundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtension.swift; sourceTree = "<group>"; };
+		AB4F74BA2AE556F4000CCD49 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		AB68DF2E2ACC1F83003BADE1 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		AB68DF302ACC2124003BADE1 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Product.swift; path = FruitMart/Source/Helper/Extension/Product.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -130,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				AB68DF302ACC2124003BADE1 /* Product.swift */,
+				AB4F74BA2AE556F4000CCD49 /* Store.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -155,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				AB68DF2E2ACC1F83003BADE1 /* ColorExtension.swift */,
+				AB4F74B82AE5567F000CCD49 /* BundleExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -234,6 +240,8 @@
 				AB47D1FE2A86689200370F49 /* ProductRow.swift in Sources */,
 				5238EACC240BAC920079E99D /* AppDelegate.swift in Sources */,
 				5238EACE240BAC920079E99D /* SceneDelegate.swift in Sources */,
+				AB4F74BB2AE556F4000CCD49 /* Store.swift in Sources */,
+				AB4F74B92AE5567F000CCD49 /* BundleExtension.swift in Sources */,
 				5238EAD0240BAC920079E99D /* Home.swift in Sources */,
 				AB68DF2F2ACC1F83003BADE1 /* ColorExtension.swift in Sources */,
 				AB68DF312ACC2124003BADE1 /* Product.swift in Sources */,
